@@ -138,6 +138,10 @@ const stack = [{
         name: 'NestJs'
     },
 	{
+		icon: icon.SiMeteor,
+		name: 'MeteorJs'
+	},
+	{
 		icon: icon.SiMongodb,
 		name: 'MongoDB'
 	},
