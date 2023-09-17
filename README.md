@@ -1,8 +1,68 @@
-# React + Vite
+<div id="top"></div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# avelinojrr
+avelinojrr is my portfolio built with full React and Vite, super simple. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="src/images/home.png" alt="Home UI">
+
+[Live Preview](https://axelavelino.me)
+
+
+## Prerequisites
+
+Install NPM or PNPM
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+ 
+  Or
+  
+* pnpm
+  ```sh
+  npm install -g pnpm
+  ```
+
+
+## Setup
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/avelinojrr/v1
+   ```
+   
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+   
+3. Start the development server
+   ```sh
+   npm run dev
+   ```
+
+## Usage
+
+* Open the file `index.html` and replace `<title>avelinojrr</title>` with `<title>Your Name</title>`
+* Open the file `src/data.js` and make changes.
+* Open the file `src/style/theme` and replace the styles with your own.
+
+
+## Build & deploy
+
+1. Generate a full static production build
+   ```sh
+   npm run build
+   ```
+   
+2. Preview the site as it will appear once deployed
+   ```sh
+   npm run preview
+   ```
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>

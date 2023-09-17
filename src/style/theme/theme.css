@@ -2,9 +2,9 @@
 
 :root{
 	/*Color HSL*/
-	--theme-hue: 224deg;
-	--theme-sat: 90%;
-	--theme-lit: 11%;
+	--theme-hue: 225deg;
+	--theme-sat: 26%;
+	--theme-lit: 21%;
 
 	/* Color palette */
 	--space-cadet: hsl(
@@ -14,10 +14,9 @@
 	);
 
 	--ghost-white: hsl(
-		0,
-        14%,
-        90%
-    );
+		var(--theme-hue), 
+		14%, 
+		90%);
 
 	/* Typography */
 	--font: 'Open Sans';
@@ -47,4 +46,10 @@
 :root{
 	--primary: var(--ghost-white);
 	--accent: var(--space-cadet);
+}
+
+/* Theme Dark */
+[data-theme='dark'] {
+	--primary: var(--space-cadet);
+	--accent: var(--ghost-white);
 }

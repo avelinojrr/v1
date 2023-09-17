@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from 'uuid'
 import { SiGithub } from "react-icons/si"
 import { RiArrowRightLine } from "react-icons/ri"
 import Icon from '/src/components/elements/Icon.jsx'
-import '/src/stylesheets/elements/Card.css'
+import '/src/style/elements/Card.css'
 
 // eslint-disable-next-line react/prop-types
 const Card = ({ name, description, stack, linkProject, linkGithub }) => {
