@@ -126,14 +126,6 @@ const work = [{
 const stack = [{
 	name: 'Technologies',
 	items: [{
-		icon: icon.SiPython,
-		name: 'Python'
-	},
-	{
-		icon: icon.SiDjango,
-		name: 'Django'
-	},
-	{
 		icon: icon.SiNodedotjs,
 		name: 'NodeJs',
 	},
@@ -142,13 +134,9 @@ const stack = [{
 		name: 'Express'
 	},
 	{
-		icon: icon.SiVisualstudiocode,
-		name: 'Visual Studio Code',
-	},
-	{
-		icon: icon.SiTextpattern,
-		name: 'Clean Architecture'
-	},
+        icon: icon.SiNestjs,
+        name: 'NestJs'
+    },
 	{
 		icon: icon.SiMongodb,
 		name: 'MongoDB'
@@ -156,7 +144,15 @@ const stack = [{
 	{
 		icon: icon.SiPostgresql,
 		name: 'PostgresSQL'
-	}
+	},
+	{
+		icon: icon.SiGooglecloud,
+		name: 'Google Cloud'
+	},
+	{
+        icon: icon.SiAmazonaws,
+        name: 'Amazon Web Services'
+    }
 	],
 },
 {
@@ -170,6 +166,18 @@ const stack = [{
 		name: 'TailwindCss'
 	},
 	{
+		icon: icon.SiVisualstudiocode,
+		name: 'Visual Studio Code',
+	},
+	{
+		icon: icon.SiGit,
+		name: 'Git'
+	},
+	{
+		icon: icon.SiTextpattern,
+		name: 'Clean Architecture'
+	},
+	{
 		icon: icon.SiNpm,
 		name: 'Npm',
 	},
@@ -181,18 +189,6 @@ const stack = [{
 		icon: icon.SiGithub,
 		name: 'GitHub'
 	},
-	{
-		icon: icon.SiGit,
-		name: 'Git'
-	},
-	{
-		icon: icon.SiGooglecloud,
-		name: 'Google Cloud'
-	},
-    {
-        icon: icon.SiAmazonaws,
-        name: 'Amazon Web Services'
-    },
 	],
 },
 ]
