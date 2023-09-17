@@ -1,35 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
-:root {
-    /* Colors */
-    --theme-primary: #0a192f;
-    --theme-secondary: #112240;
-    --theme-lightest: #233554;
+:root{
+	/*Color HSL*/
+	--theme-hue: 224deg;
+	--theme-sat: 90%;
+	--theme-lit: 11%;
 
-    --theme-slate: #8892b0;
-    --theme-slate-light: #a8b2d1;
-    --theme-lightest: #ccd6f6;
+	/* Color palette */
+	--space-cadet: hsl(
+		var(--theme-hue), 
+		var(--theme-sat), 
+		var(--theme-lit)
+	);
 
-    --theme-white: #e6f1ff;
-    --theme-red: #b2222b;
+	--ghost-white: hsl(
+		0,
+        14%,
+        90%
+    );
 
-    /* Color Palette */
-    --color-primary: var(--theme-primary);
-    --color-secondary: var(--theme-secondary);
-    --color-lightest: var(--theme-lightest);
+	/* Typography */
+	--font: 'Open Sans';
 
-    --color-slate: var(--theme-slate);
-    --color-slate-light: var(--theme-slate-light);
-    --color-lightest: var(--theme-lightest);    
-
-    --color-white: var(--theme-white);
-    --color-red: var(--theme-red);
-
-    /* Typography */
-    --font: 'Open Sans';
-
-    /* Font Sizes */
-    --big-head: min(calc(var(--h1) * 1.5), 14vw);
+	/* Font scale */
+	--big-head: min(calc(var(--h1) * 1.5), 14vw);
 	--big-sub-head: clamp(var(--h4), 8vw, var(--h2));
 	--h1: 3.052rem;
 	--h2: 2.441rem;
@@ -37,14 +31,20 @@
 	--h4: 1.25rem;
 	--text-small: 0.8rem;
 
-    /* Font Weight */
+	/* Font Weight */
 	--light: 300;
 	--normal: 400;
 	--bold: 700;
 
-    /* Margins Levels */
+	/* Margins Levels */
 	--margin-1: 120px;
 	--margin-2: 60px;
 	--margin-3: 30px;
 	--margin-4: 15px;
+}	
+
+/* Theme Light */
+:root{
+	--primary: var(--ghost-white);
+	--accent: var(--space-cadet);
 }
