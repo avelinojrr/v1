@@ -50,10 +50,6 @@ const work = [{
 		name: 'MVC'
 	},
 	{
-		icon: icon.SiVisualstudiocode,
-		name: 'Visual Studio Code'
-	},
-	{
 		icon: icon.SiFastapi,
 		name: 'Apis'
 	}
@@ -61,8 +57,8 @@ const work = [{
 	linkProject: 'https://github.com/avelinojrr/fintech-login-register',
 },
 {
-	name: 'Stripe Payment Api',
-	description: 'Phrases App, application built under the MVVM architecture (Model-View-ViewModel), in this app I put my knowledge of the architecture and this app is made with the Kotlin language.',
+	name: 'NodeJs + Stripe ',
+	description: 'I have created a robust and simple REST API that uses the Stripe payment platform to simplify the online shopping process. The API is built with NodeJs and Express.',
 	stack: [{
 		icon: icon.SiNodedotjs,
 		name: 'NodeJs'
@@ -80,11 +76,15 @@ const work = [{
 		name: 'Clean Architecture'
 	},
 	{
-		icon: icon.SiAndroidstudio,
-		name: 'Android Studio'
+		icon: icon.SiStripe,
+		name: 'Stripe API'
+	},
+	{
+		icon: icon.SiMocha,
+		name: 'Mocha'
 	},
 	],
-	linkProject: 'https://github.com/avelinojrr/PhrasesAppMVVM'
+	linkProject: 'https://github.com/avelinojrr/Nodejs-Stripe-Api'
 },
 {
 	name: 'Excel Validator',

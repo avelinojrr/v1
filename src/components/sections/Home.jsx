@@ -13,11 +13,11 @@ const Home = () => {
                     <h1 className="Home-h1">{name}</h1>
                     <h2 className="Home-h2">{role}</h2>
                     <p className="Home-description">
-                        Hi Stranger👋, I am a software developer proficient in Python and
-						Node.js, specializing in backend application development using
-						popular frameworks such as Django and Express.js and have worked
+                        Hi Stranger👋, I am a software developer proficient in Node.js, 
+                        specializing in backend application development using
+						popular frameworks such as Express.js, Nest.js and Meteor.js, I have worked
 						with databases such as MongoDB/PostgreSQL. I also have experience in
-						creating web services and implementing RESTful APIs.
+						creating web services, RESTful APIs and implementing microservices.
                     </p>
                     <SocialLinks />
                 </div>
