@@ -7,9 +7,9 @@ import Stack from '/src/components/sections/Stack'
 import Contact from '/src/components/sections/Contact'
 import Footer from '/src/components/sections/Footer'
 import ScrollToTop from '/src/components/elements/ScrollToTop'
+import Preloader from '/src/components/elements/Preloader';
 import '/src/App.css'
 import '/src/style/theme/theme.css'
-import Preloader from "./preloader.jsx";
 
 
 function App() {
