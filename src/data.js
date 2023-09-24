@@ -14,6 +14,10 @@ const social = [{
 	link: 'https://www.linkedin.com/in/axelavelino/'
 },
 {
+	icon: icon.SiMedium,
+	link: 'https://medium.com/@avelinojrr'
+},
+{
 	icon: icon.SiInstagram,
 	link: 'https://instagram.com/avelinojrr'
 },
@@ -23,6 +27,40 @@ const brand = 'avelinojrr'
 
 
 const work = [{
+	name: 'Arajet',
+	description: 'I am currently working on the web application of Arajet (Unofficial), an ultra-low-cost airline and the flag carrier of the Dominican Republic. It started operations in 2022.',
+	stack: [{
+		icon: icon.SiNodedotjs,
+		name: 'NodeJs'
+	},
+	{
+		icon: icon.SiExpress,
+		name: 'Express'
+	},
+	{
+		icon: icon.SiReact,
+		name: 'ReactJs'
+	},
+	{
+		icon: icon.SiTailwindcss,
+		name: 'TailwindCss'
+	},
+	{
+		icon: icon.SiMongodb,
+		name: 'Mongodb'
+	},
+	{
+		icon: icon.SiTextpattern,
+		name: 'MVC'
+	},
+	{
+		icon: icon.SiStripe,
+		name: 'Stripe API'
+	}],
+	linkProject: ''
+},
+	
+	{
 	name: 'Login And Register',
 	description: 'It is a simple REST Api where we have applied the MVC architecture, creating the backend in NodeJS/Express, as a database MongoDB and the UI part in ReactJs + TailwindsCss.',
 	stack: [{
@@ -85,32 +123,6 @@ const work = [{
 	},
 	],
 	linkProject: 'https://github.com/avelinojrr/Nodejs-Stripe-Api'
-},
-{
-	name: 'Excel Validator',
-	description: 'This is a console application where we validate 2 excel files for conflicts, using Python, Pandas and some libraries.',
-	stack: [{
-		icon: icon.SiPython,
-		name: 'Python'
-	},
-	{
-		icon: icon.SiPandas,
-		name: 'Pandas'
-	},
-	{
-		icon: icon.SiMicrosoftexcel,
-		name: 'Excel Files'
-	},
-	{
-		icon: icon.SiVisualstudiocode,
-		name: 'Visual Studio Code'
-	},
-	{
-		icon: icon.SiWindowsterminal,
-		name: 'Windows Terminal'
-	},
-	],
-	linkProject: 'https://github.com/avelinojrr/CB'
 },
 {
 	name: 'And More Projects...',
