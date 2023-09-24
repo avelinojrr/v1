@@ -7,7 +7,7 @@ import Stack from '/src/components/sections/Stack'
 import Contact from '/src/components/sections/Contact'
 import Footer from '/src/components/sections/Footer'
 import ScrollToTop from '/src/components/elements/ScrollToTop'
-import Preloader from '/src/components/elements/Preloader';
+// import Preloader from '/src/components/elements/Preloader';
 import '/src/App.css'
 import '/src/style/theme/theme.css'
 
@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App" id="top" data-theme={theme}>
-      <Preloader />
+      {/* <Preloader /> */}
       <Header />
       <Home />
       <Work />
