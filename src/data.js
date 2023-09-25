@@ -14,6 +14,10 @@ const social = [{
 	link: 'https://www.linkedin.com/in/axelavelino/'
 },
 {
+	icon: icon.SiMedium,
+	link: 'https://medium.com/@avelinojrr'
+},
+{
 	icon: icon.SiInstagram,
 	link: 'https://instagram.com/avelinojrr'
 },
@@ -22,20 +26,82 @@ const social = [{
 const brand = 'avelinojrr'
 
 
-const work = [{
+const work = [
+{
+		name: 'Arajet',
+		description: 'I am currently building the web application for Arajet (Unofficial), it is an ultra-low-cost airline and the flag carrier of the Dominican Republic. It began operations on September 15, 2022.',
+		stack: [{
+			icon: icon.SiNodedotjs,
+			name: 'Node.Js'
+		},
+		{
+			icon: icon.SiExpress,
+			name: 'Express.Js'
+		},
+		{
+			icon: icon.SiMongodb,
+			name: 'Mongodb'
+		},
+		{
+			icon: icon.SiStripe,
+			name: 'Stripe API'
+		},
+		{
+			icon: icon.SiReact,
+			name: 'React.Js'
+		},
+		{
+			icon: icon.SiTailwindcss,
+			name: 'TailwindCss'
+		},
+		],
+		linkProject: 'https://github.com/avelinojrr/Arajet'
+},
+
+{
+	name: 'Nodejs + Stripe',
+	description: 'I have created a robust and simple REST API that uses the Stripe payment platform to simplify the online shopping process. The API is built with NodeJs and Express.',
+	stack: [{
+		icon: icon.SiNodedotjs,
+		name: 'Node.Js'
+	},
+	{
+		icon: icon.SiExpress,
+		name: 'Express.Js'
+	},
+	{
+		icon: icon.SiStripe,
+		name: 'Stripe API'
+	},
+	{
+		icon: icon.SiMocha,
+		name: 'Mocha'
+	},
+	{
+		icon: icon.SiNodemon,
+		name: 'Nodemon'
+	},
+	{	
+		icon: icon.SiTextpattern,
+		name: 'Clean Architecture'
+	},
+	],
+	linkProject: 'https://github.com/avelinojrr/Nodejs-Stripe-Api'
+},
+{
 	name: 'Login And Register',
 	description: 'It is a simple REST Api where we have applied the MVC architecture, creating the backend in NodeJS/Express, as a database MongoDB and the UI part in ReactJs + TailwindsCss.',
 	stack: [{
 		icon: icon.SiNodedotjs,
-		name: 'NodeJs'
+		name: 'Node.Js'
 	},
 	{
 		icon: icon.SiExpress,
-		name: 'Express'
+		name: 'Express.Js'
 	},
 	{
 		icon: icon.SiReact,
-		name: 'ReactJs'
+		name: 'React.Js'
 	},
 	{
 		icon: icon.SiTailwindcss,
@@ -50,68 +116,14 @@ const work = [{
 		name: 'MVC'
 	},
 	{
-		icon: icon.SiVisualstudiocode,
-		name: 'Visual Studio Code'
-	},
-	{
 		icon: icon.SiFastapi,
 		name: 'Apis'
 	}
 	],
 	linkProject: 'https://github.com/avelinojrr/fintech-login-register',
 },
-{
-	name: 'Paypal Payment Api',
-	description: 'Phrases App, application built under the MVVM architecture (Model-View-ViewModel), in this app I put my knowledge of the architecture and this app is made with the Kotlin language.',
-	stack: [{
-		icon: icon.SiNodedotjs,
-		name: 'NodeJs'
-	},
-	{
-		icon: icon.SiExpress,
-		name: 'Express'
-	},
-	{
-		icon: icon.SiNodemon,
-		name: 'Nodemon'
-	},
-	{
-		icon: icon.SiTextpattern,
-		name: 'Clean Architecture'
-	},
-	{
-		icon: icon.SiAndroidstudio,
-		name: 'Android Studio'
-	},
-	],
-	linkProject: 'https://github.com/avelinojrr/PhrasesAppMVVM'
-},
-{
-	name: 'Excel Validator',
-	description: 'This is a console application where we validate 2 excel files for conflicts, using Python, Pandas and some libraries.',
-	stack: [{
-		icon: icon.SiPython,
-		name: 'Python'
-	},
-	{
-		icon: icon.SiPandas,
-		name: 'Pandas'
-	},
-	{
-		icon: icon.SiMicrosoftexcel,
-		name: 'Excel Files'
-	},
-	{
-		icon: icon.SiVisualstudiocode,
-		name: 'Visual Studio Code'
-	},
-	{
-		icon: icon.SiWindowsterminal,
-		name: 'Windows Terminal'
-	},
-	],
-	linkProject: 'https://github.com/avelinojrr/CB'
-},
+
+
 {
 	name: 'And More Projects...',
 	description: 'If you want to see more projects, you can visit my github profile.',
@@ -126,28 +138,20 @@ const work = [{
 const stack = [{
 	name: 'Technologies',
 	items: [{
-		icon: icon.SiPython,
-		name: 'Python'
-	},
-	{
-		icon: icon.SiDjango,
-		name: 'Django'
-	},
-	{
 		icon: icon.SiNodedotjs,
-		name: 'NodeJs',
+		name: 'Node.Js',
 	},
 	{
 		icon: icon.SiExpress,
-		name: 'Express'
+		name: 'Express.Js'
 	},
 	{
-		icon: icon.SiVisualstudiocode,
-		name: 'Visual Studio Code',
-	},
+        icon: icon.SiNestjs,
+        name: 'Nest.Js'
+    },
 	{
-		icon: icon.SiTextpattern,
-		name: 'Clean Architecture'
+		icon: icon.SiMeteor,
+		name: 'Meteor.Js'
 	},
 	{
 		icon: icon.SiMongodb,
@@ -156,18 +160,38 @@ const stack = [{
 	{
 		icon: icon.SiPostgresql,
 		name: 'PostgresSQL'
-	}
+	},
+	{
+		icon: icon.SiGooglecloud,
+		name: 'Google Cloud'
+	},
+	{
+        icon: icon.SiAmazonaws,
+        name: 'Amazon Web Services'
+    }
 	],
 },
 {
 	name: 'Other Tech',
 	items: [{
 		icon: icon.SiReact,
-		name: 'ReactJs'
+		name: 'React.Js'
 	},
 	{
 		icon: icon.SiTailwindcss,
 		name: 'TailwindCss'
+	},
+	{
+		icon: icon.SiVisualstudiocode,
+		name: 'Visual Studio Code',
+	},
+	{
+		icon: icon.SiGit,
+		name: 'Git'
+	},
+	{
+		icon: icon.SiTextpattern,
+		name: 'Clean Architecture'
 	},
 	{
 		icon: icon.SiNpm,
@@ -178,16 +202,8 @@ const stack = [{
 		name: 'Apis',
 	},
 	{
-		icon: icon.SiGithub,
-		name: 'GitHub'
-	},
-	{
 		icon: icon.SiGit,
 		name: 'Git'
-	},
-	{
-		icon: icon.SiGooglecloud,
-		name: 'Google Cloud'
 	},
 	],
 },
