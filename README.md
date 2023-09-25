@@ -1,12 +1,12 @@
 <div id="top"></div>
 
 
-# avelinojrr
-avelinojrr is my portfolio built with full React and Vite, super simple. 
+# Singleton
+Singleton is a Minimal Portfolio Template built with React and Vite, easy to use 
 
 <img src="src/images/home.png" alt="Home UI">
 
-[Live Preview](https://axelavelino.me)
+[Live Preview](https://singleton-portfolio.netlify.app/)
 
 
 ## Prerequisites
@@ -29,7 +29,7 @@ Install NPM or PNPM
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/avelinojrr/v1
+   git clone https://github.com/josnethmoreno/singleton.git
    ```
    
 2. Install NPM packages
@@ -44,9 +44,8 @@ Install NPM or PNPM
 
 ## Usage
 
-* Open the file `index.html` and replace `<title>avelinojrr</title>` with `<title>Your Name</title>`
+* Open the file `index.html` and replace `<title>Singleton</title>` with `<title>Your Name</title>`
 * Open the file `src/data.js` and make changes.
-* Open the file `src/style/theme` and replace the styles with your own.
 
 
 ## Build & deploy

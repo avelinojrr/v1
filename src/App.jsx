@@ -7,26 +7,23 @@ import Stack from '/src/components/sections/Stack'
 import Contact from '/src/components/sections/Contact'
 import Footer from '/src/components/sections/Footer'
 import ScrollToTop from '/src/components/elements/ScrollToTop'
-// import Preloader from '/src/components/elements/Preloader';
 import '/src/App.css'
-import '/src/style/theme/theme.css'
-
+import '/src/stylesheets/theme/theme.css'
 
 function App() {
-  const { theme } = useContext(ThemeContext);
+	const { theme } = useContext(ThemeContext)
 
-  return (
-    <div className="App" id="top" data-theme={theme}>
-      {/* <Preloader /> */}
-      <Header />
-      <Home />
-      <Work />
-      <Stack />
-      <Contact />
-      <Footer />
-      <ScrollToTop />
-    </div>
-  )
+	return (
+		<div className='App' id='top' data-theme={theme}>
+			<Header />
+			<Home />
+			<Work />
+			<Stack />
+			<Contact />
+			<Footer />
+			<ScrollToTop />
+		</div>
+	)
 }
 
 export default App
