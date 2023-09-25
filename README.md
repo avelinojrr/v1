@@ -29,7 +29,7 @@ Install NPM or PNPM
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/avelinojrr/AP
+   git clone https://github.com/avelinojrr/v1
    ```
    
 2. Install NPM packages
@@ -62,6 +62,6 @@ Install NPM or PNPM
 
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
