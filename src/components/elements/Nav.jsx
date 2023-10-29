@@ -1,4 +1,4 @@
-import { useState, useRef, useContext } from 'react'
+import { useState, useContext } from 'react'
 import { RiMoonLine, RiSunLine, RiMenuFill, RiCloseLine } from "react-icons/ri"
 import { ThemeContext } from '/src/contexts/ThemeContext.jsx'
 import { brand } from '/src/data.js'
@@ -25,16 +25,16 @@ const Nav = () => {
 			<div className="Nav-menu" data-show={menu} onClick={(e) => handleMenu(e)}>
 				<div className="Nav-menu-wrapper">
 					<a className="Nav-link" href="#work" onClick={() => setMenu(false)}>
-						Work.
+						1. Work
 					</a>
 					<a className="Nav-link" href="#stack" onClick={() => setMenu(false)}>
-						Stack.
+						2. Stack
 					</a>
 					<a className="Nav-link" href="#contact" onClick={() => setMenu(false)}>
-						Contact.
+						3. Contact
 					</a>
 					<a className="Nav-link" href="Resume.pdf" target='_blank' onClick={() => setMenu(false)}>
-						Resume.
+						4. Resume
 					</a>
 				</div>
 			</div>

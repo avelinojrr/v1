@@ -2,7 +2,7 @@ import * as icon from 'react-icons/si'
 
 const profile = {
 	name: 'Axel Avelino',
-	role: '@Backend Developer'
+	role: '@Backend Engineer'
 };
 
 const social = [{
