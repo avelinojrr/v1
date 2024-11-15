@@ -33,7 +33,7 @@ const Nav = () => {
 					<a className="Nav-link" href="#contact" onClick={() => setMenu(false)}>
 						3. Contact
 					</a>
-					<a className="Nav-link" href="Resume.pdf" target='_blank' onClick={() => setMenu(false)}>
+					<a className="Nav-link" href="https://www.linkedin.com/in/avelinojrr/" target='_blank' onClick={() => setMenu(false)}>
 						4. Resume
 					</a>
 				</div>
