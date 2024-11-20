@@ -9,6 +9,7 @@
   /* Color palette */
   --space-cadet: hsl(var(--theme-hue), var(--theme-sat), var(--theme-lit));
   --ghost-white: hsl(var(--theme-hue), 14%, 90%);
+  --shadow-color: rgba(0, 0, 0, 0.1);
 
   /* Typography */
   --font: "Open Sans";
@@ -44,4 +45,5 @@
 [data-theme="dark"] {
   --primary: var(--space-cadet);
   --accent: var(--ghost-white);
+  --shadow-color: rgba(255, 255, 255, 0.1)
 }

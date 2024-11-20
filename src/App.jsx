@@ -3,6 +3,7 @@ import { ThemeContext } from '/src/contexts/ThemeContext.jsx'
 import Header from '/src/components/sections/Header'
 import Home from '/src/components/sections/Home'
 import Work from '/src/components/sections/Work'
+import Experience from './components/sections/Experience'
 import Stack from '/src/components/sections/Stack'
 import Contact from '/src/components/sections/Contact'
 import Footer from '/src/components/sections/Footer'
@@ -17,6 +18,7 @@ function App() {
 		<div className='App' id='top' data-theme={theme}>
 			<Header />
 			<Home />
+			<Experience />
 			<Work />
 			<Stack />
 			<Contact />

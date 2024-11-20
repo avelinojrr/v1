@@ -241,6 +241,102 @@ const contact = {
 	email: 'axelavelino1@gmail.com'
 }
 
+const experience = [{
+		name: 'Backend Engineer',
+		description: 'I am currently working as a Backend Engineer at Arajet, where I am building the web application for the airline.',
+		stack: [{
+				icon: icon.SiNodedotjs,
+				name: 'Node.Js'
+			},
+			{
+				icon: icon.SiExpress,
+				name: 'Express.Js'
+			},
+			{
+				icon: icon.SiMongodb,
+				name: 'Mongodb'
+			},
+			{
+				icon: icon.SiStripe,
+				name: 'Stripe API'
+			},
+			{
+				icon: icon.SiReact,
+				name: 'React.Js'
+			},
+			{
+				icon: icon.SiTailwindcss,
+				name: 'TailwindCss'
+			},
+		],
+		linkProject: 'linkProject'
+	},
+	{
+		name: 'Backend Engineer',
+		description: 'I have created a robust and simple REST API that uses the Stripe payment platform to simplify the online shopping process. The API is built with NodeJs and Express.',
+		stack: [{
+				icon: icon.SiNodedotjs,
+				name: 'Node.Js'
+			},
+			{
+				icon: icon.SiExpress,
+				name: 'Express.Js'
+			},
+			{
+				icon: icon.SiStripe,
+				name: 'Stripe API'
+			},
+			{
+				icon: icon.SiMocha,
+				name: 'Mocha'
+			},
+			{
+				icon: icon.SiNodemon,
+				name: 'Nodemon'
+			},
+			{
+				icon: icon.SiTextpattern,
+				name: 'Clean Architecture'
+			},
+		],
+		linkProject: 'linkProject'
+	},
+	{
+		name: 'Backend Engineer',
+		description: 'It is a simple REST Api where we have applied the MVC architecture, creating the backend in NodeJS/Express, as a database MongoDB and the UI part in ReactJs + TailwindsCss.',
+		stack: [{
+				icon: icon.SiNodedotjs,
+				name: 'Node.Js'
+			},
+			{
+				icon: icon.SiExpress,
+				name: 'Express.Js'
+			},
+			{
+				icon: icon.SiReact,
+				name: 'React.Js'
+			},
+			{
+				icon: icon.SiTailwindcss,
+				name: 'TailwindCss'
+			},
+			{
+				icon: icon.SiMongodb,
+				name: 'Mongodb'
+			},
+			{
+				icon: icon.SiTextpattern,
+				name: 'MVC'
+			},
+			{
+				icon: icon.SiFastapi,
+				name: 'Apis'
+			}
+		],
+		linkProject: 'linkProject'
+	},
+]
+
 export {
 	profile,
 	social,
@@ -248,4 +344,5 @@ export {
 	stack,
 	contact,
 	brand,
+	experience
 }

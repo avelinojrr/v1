@@ -4,11 +4,6 @@
 # avelinojrr
 avelinojrr is my portfolio built with full React and Vite, super simple. 
 
-<img src="src/images/home.png" alt="Home UI">
-
-[Live Preview](https://axelavelino.me)
-
-
 ## Prerequisites
 
 Install NPM or PNPM
