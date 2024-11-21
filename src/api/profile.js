@@ -1,11 +1,11 @@
 import * as icon from 'react-icons/si'
 
-const profile = {
+export const profile = {
 	name: 'Axel Avelino',
 	role: '@Backend Engineer'
 };
 
-const social = [{
+export const social = [{
     icon: icon.SiGithub,
     link: 'https://github.com/avelinojrr'
 },
@@ -23,9 +23,9 @@ const social = [{
 },
 ];
 
-const brand = 'avelinojrr'
+export const brand = 'avelinojrr'
 
-const contact = {
+export const contact = {
 	description: 'I am currently interested in new job opportunities, if you want to contact me, you can do it through the following social networks or email. My inbox is always open, I will do my best to answer you!',
 	email: 'axelavelino1@gmail.com'
 }

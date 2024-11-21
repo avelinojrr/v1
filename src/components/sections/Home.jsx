@@ -1,6 +1,6 @@
 import '/src/stylesheets/sections/Home.css'
 import SocialLinks from '/src/components/elements/SocialLinks'
-import { profile } from '/src/data.js'
+import { profile } from '/src/api/profile'
 
 const Home = () => {
 	const { name, role } = profile

@@ -1,3 +1,12 @@
+/* .Contact .container {
+	text-align: center;
+	margin-top: var(--margin-3);
+} */
+
+.container-contact {
+	text-align: center;
+}
+
 .Contact .container-sm{
 	text-align: center;
 }

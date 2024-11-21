@@ -3,3 +3,7 @@
 	flex-direction: column;
 	gap: var(--margin-1);
 }
+
+.Stack .container {
+	text-align: center;
+}

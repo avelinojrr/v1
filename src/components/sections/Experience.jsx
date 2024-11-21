@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
-import { experience } from '../../api/experience';
+import { experience } from '/src/api/experience';
 import '../../stylesheets/sections/Experience.css';
 import {IoIosArrowDown} from 'react-icons/io';
 

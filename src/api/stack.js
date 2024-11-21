@@ -1,6 +1,6 @@
 import * as icon from 'react-icons/si'
 
-const stack = [{
+export const stack = [{
     name: 'Technologies',
     items: [{
             icon: icon.SiJavascript,

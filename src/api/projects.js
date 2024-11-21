@@ -1,6 +1,6 @@
 import * as icon from 'react-icons/si'
 
-const work = [{
+export const projects = [{
     name: 'Arajet',
     description: 'I am currently building the web application for Arajet (Unofficial), it is an ultra-low-cost airline and the flag carrier of the Dominican Republic. It began operations on September 15, 2022.',
     stack: [{

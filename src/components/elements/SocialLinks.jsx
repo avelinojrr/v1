@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from 'uuid'
-import { social } from '/src/data.js'
+import { social } from '/src/api/profile'
 import Icon from '/src/components/elements/Icon.jsx'
 import '/src/stylesheets/elements/SocialLinks.css'
 

@@ -1,7 +1,7 @@
 import { useState, useContext } from 'react'
 import { RiMoonLine, RiSunLine, RiMenuFill, RiCloseLine } from "react-icons/ri"
 import { ThemeContext } from '/src/contexts/ThemeContext.jsx'
-import { brand } from '/src/data.js'
+import { brand } from '/src/api/profile'
 import '/src/stylesheets/elements/Nav.css'
 
 const Nav = () => {
@@ -27,8 +27,8 @@ const Nav = () => {
 					<a className="Nav-link" href="#experience" onClick={() => setMenu(false)}>
 						1. Experience
 					</a>
-					<a className="Nav-link" href="#work" onClick={() => setMenu(false)}>
-						2. Work
+					<a className="Nav-link" href="#projects" onClick={() => setMenu(false)}>
+						2. Projects
 					</a>
 					<a className="Nav-link" href="#stack" onClick={() => setMenu(false)}>
 						3. Stack

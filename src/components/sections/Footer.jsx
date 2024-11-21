@@ -1,5 +1,5 @@
 import "/src/stylesheets/sections/Footer.css";
-import { brand } from "/src/data.js";
+import { brand } from "/src/api/profile";
 
 /**
  * This is a React component for a website footer that displays the current year and a brand name.

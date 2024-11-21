@@ -1,4 +1,4 @@
-import { contact } from '/src/data.js'
+import { contact } from '/src/api/profile'
 import Button from '/src/components/elements/Button'
 import SocialLinks from '/src/components/elements/SocialLinks'
 import '/src/stylesheets/sections/Contact.css'
@@ -8,7 +8,7 @@ const Contact = () => {
 
 	return (
 		<section className='Contact section' id='contact'>
-			<div className='container'>
+			<div className='container-contact'>
 				<h2 className='Contact-h2 section-head'>Contact.</h2>
 				<div className='container-sm'>
 					<h3 className='Contact-h3'>

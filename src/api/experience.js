@@ -2,9 +2,9 @@ import * as icon from 'react-icons/si'
 
 export const experience = [{
     name: 'Backend Engineer Team Lead',
-    company: 'Arajet',
-    startDate: '2021',
-    endDate: 'Present',
+    company: 'Virtuonder, Inc.',
+    startDate: '2023',
+    // endDate:
     description: 'I am currently working as a Backend Engineer at Arajet, where I am building the web application for the airline.',
     stack: [{
             icon: icon.SiNodedotjs,
@@ -34,8 +34,9 @@ export const experience = [{
 },
 {
     name: 'Software Developer',
-    startDate: '2023',
-    endDate: '2022',
+    company: 'Incadelo',
+    startDate: 'Feb.',
+    endDate: 'Sept. 2023',
     description: 'I have created a robust and simple REST API that uses the Stripe payment platform to simplify the online shopping process. The API is built with NodeJs and Express.',
     stack: [{
             icon: icon.SiNodedotjs,
@@ -65,8 +66,9 @@ export const experience = [{
 },
 {
     name: 'Software Developer',
-    startDate: '2022',
-    endDate: '2021',
+    company: 'Hyperskill',
+    startDate: 'Project',
+    endDate: 'Cotract 2023',
     description: 'It is a simple REST Api where we have applied the MVC architecture, creating the backend in NodeJS/Express, as a database MongoDB and the UI part in ReactJs + TailwindsCss.',
     stack: [{
             icon: icon.SiNodedotjs,
@@ -100,8 +102,9 @@ export const experience = [{
 },
 {
     name: 'Software Developer',
-    startDate: '2021',
-    endDate: '2020',
+    company: 'COOProservicios, Inc.',
+    startDate: '2022',
+    endDate: '2023',
     description: 'It is a simple REST Api where we have applied the MVC architecture, creating the backend in NodeJS/Express, as a database MongoDB and the UI part in ReactJs + TailwindsCss.',
     stack: [{
             icon: icon.SiNodedotjs,
@@ -135,8 +138,9 @@ export const experience = [{
 },
 {
     name: 'DBA (Junior/Mid-Level)',
-    startDate: '2020',
-    endDate: '2019',
+    company: 'AlticeDo',
+    startDate: '2021',
+    endDate: '2022',
     description: 'It is a simple REST Api where we have applied the MVC architecture, creating the backend in NodeJS/Express, as a database MongoDB and the UI part in ReactJs + TailwindsCss.',
     stack: [{
             icon: icon.SiNodedotjs,
@@ -170,8 +174,9 @@ export const experience = [{
 },
 {
     name: 'Junior Developer',
-    startDate: '2019',
-    endDate: '2018',
+    company: 'Sowynet',
+    startDate: '2020',
+    endDate: '2021',
     description: 'It is a simple REST Api where we have applied the MVC architecture, creating the backend in NodeJS/Express, as a database MongoDB and the UI part in ReactJs + TailwindsCss.',
     stack: [{
             icon: icon.SiNodedotjs,
