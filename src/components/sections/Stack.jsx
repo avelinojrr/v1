@@ -1,11 +1,11 @@
 import { v4 as uuidv4 } from 'uuid'
-import { stack } from '/src/data.js'
+import { stack } from '/src/api/stack'
 import List from '../elements/List.jsx'
 import '/src/stylesheets/sections/Stack.css'
 
 const Stack = () => {
 	return (
-		<section className='Stack section' id='stack'>
+		<section className='Stack' id='stack'>
 			<div className='container'>
 				<h2 className='Stack-h2 section-head'>Stack.</h2>
 				<div className='container-sm'>

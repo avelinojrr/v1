@@ -1,0 +1,222 @@
+.experience {
+    padding: var(--margin-1) 0;
+    background-color: var(--primary);
+    text-align: center;
+}
+
+.timeline {
+    position: relative;
+    min-width: 800px;
+    margin: 0 auto;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 4px;
+    background-color: var(--accent);
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    position: relative;
+    width: 50%;
+    padding: 10px 30px;
+    box-sizing: border-box;
+}
+
+.timeline-item.left {
+    left: 0;
+    text-align: right;
+}
+
+.timeline-item.right {
+    left: 50%;
+    text-align: left;
+}
+
+.timeline-content {
+    position: relative;
+    background: var(--primary);
+    padding: 15px;
+    border-radius: 8px;
+    border: 4px solid var(--accent);
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+[data-theme="dark"] .timeline-content {
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.1);
+    /* Sombra clara para modo oscuro */
+}
+
+.timeline-content:hover {
+    transform: translateY(-5px);
+}
+
+.timeline-item.left .timeline-content {
+    margin-left: auto;
+}
+
+.timeline-item.right .timeline-content {
+    margin-right: auto;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 16px;
+    height: 16px;
+    background-color: var(--accent);
+    border-radius: 50%;
+    border: 2px solid var(--primary);
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.timeline-item.left::before {
+    right: -8px;
+}
+
+.timeline-item.right::before {
+    left: -8px;
+}
+
+.job-title {
+    font-size: var(--h4);
+    color: var(--accent);
+    font-weight: var(--bold);
+    margin-bottom: var(--margin-4);
+}
+
+.job-company {
+    font-size: var(--h4);
+    color: var(--accent);
+    font-weight: var(--normal);
+    margin-bottom: var(--margin-4);
+}
+
+.job-date {
+    margin-top: var(--margin-4);
+    font-size: var(--text-h3);
+    font-weight: var(--light);
+    color: var(--accent);
+    text-align: center;
+}
+
+.job-description {
+    margin-top: var(--margin-4);
+    font-size: var(--text-small);
+    color: var(--accent);
+    text-align: justify;
+    margin-bottom: var(--margin-4);
+}
+
+.job-stack {
+    margin-top: var(--margin-3);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Tech Item Styles */
+.tech-item {
+
+    display: flex;
+    align-items: center;
+    padding: 6px 14px;
+    color: var(--accent);
+    border-radius: 16px;
+    font-size: var(--text-small);
+    box-shadow: 0px 2px 5px var(--shadow-color);
+    transition: background 0.3s ease, transform 0.3s ease, color 0.3s ease;
+}
+
+.tech-icon {
+    font-size: 1.1em;
+    margin-right: 5px;
+    transform: scale(1.05);
+}
+
+.tech-item:hover {
+    background: var(--accent);
+    color: var(--primary);
+    transform: scale(1.05);
+}
+
+.load-more {
+    margin-top: var(--margin-3);
+    padding: 18px 18px;
+    font-size: var(--h4);
+    font-weight: var(--normal);
+    color: var(--primary);
+    background-color: var(--accent);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.load-more:hover {
+    background-color: var(--accent);
+    color: var(--primary);
+}
+
+.arrow-icon {
+    font-size: var(--h4);
+    color: inherit;
+    transition: transform 0.3s ease;
+}
+
+.load-more:hover .arrow-icon {
+    transform: translateY(4px);
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+
+    .timeline {
+        min-width: 95%;
+        margin: 0 auto;
+    }
+
+    .timeline::before {
+        left: 8px;
+    }
+
+    .timeline-item {
+        width: 100%;
+        padding: 15px 20px;
+        text-align: left;
+        margin-bottom: var(--margin-5);
+    }
+
+    .timeline-item.left,
+    .timeline-item.right {
+        left: 0;
+    }
+    
+    .timeline-item.right::before {
+        left: 0;
+    }
+
+    .timeline-content {
+        margin-left: 30px;
+        padding: 15px;
+        width: calc(100% - 30px);
+    }
+
+    .timeline-item::before {
+        left: 0;
+        transform: translateY(-50%);
+    }
+}
